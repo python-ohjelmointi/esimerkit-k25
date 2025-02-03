@@ -1,4 +1,6 @@
-vuosi = 2026
+from datetime import date
+
+vuosi = date.today().year
 
 print("<label>Vuosi: </label><select>")
 while vuosi >= 1900:
